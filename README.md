@@ -1,24 +1,16 @@
-## Hi there 👋
 
-<!-- <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=speech&color=0:c3fff3,50:ffd6fb,100:e893d8&height=140&section=header&text=Seol's%20Github📁&fontSize=50&fontColor=ffffff&fontAlignY=50&fontAlign=73&stroke=3586db&strokeWidth=1&animation=fadeIn"/>
-</p>
+  <h3 align="center">누군가의 불편감을 알아차리는 데 익숙하기에, 이를 해결하는 개발자가 되고자 합니다.<br>
+문제 해결의 즐거움으로 성장 중인 개발자, 김도경입니다!</h3>
+<br/><br/>
 
-<p align="center">
-  <img src="assets/hello_eunseol_clean.png" alt="Hello! I'm Eunseol" width="500"/>
-</p>
+## 🧭 About Me
+- ⚙️ 문제 해결의 과정에서 가장 큰 보람을 느낍니다.
+- 🧩 데이터 처리, 구조 설계, 성능 최적화에 관심이 있습니다.
+- 📚 프로그래머스에서 알고리즘 문제 풀이로 사고력을 단련 중입니다.
+- 🌱 “깊은 몰입, 높은 완성도”를 신조로 개발합니다.
+<br/><br/>
 
-<p align="center">
-  <h3>✨ 제품을 보는 디자이너의 눈과 만드는 개발자의 손을 함께 지닌 풀스택 개발자, 고은설입니다.</h3>
-</p>
-
-사용자와 화면 사이, 팀과 팀 사이를 잇는 **실용적 번역가**로서,  
-**디자인 감수성 + 데이터 이해**를 무기로, 오래 버티는 신뢰성 있는 시스템을 설계합니다.  
-
-
---- -->
-
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 <div align="center">
 <table>
   <thead>
@@ -72,66 +64,68 @@
 </table>
 </div>
 
----
-
-# 📁 Featured Projects
+<br/><br/>
+## 📁 Featured Projects
 
 > ### 🐿️ Squirrel Logistics - Team Project
-> 풀스택 물류 매칭 플랫폼 – 팀 프로젝트 (Driver 모듈 담당)  
+> 풀스택 물류 매칭 플랫폼 – 팀 프로젝트 (Company 모듈 담당)  
 > - **내 역할**  
->   - 성능 최적화: AOP 타이머로 엔드포인트 계측 → **목록 10건 7s → 2s**, **상세 12s → 3s**  
->     · Slim DTO 분리, JPQL Projection 단일 조회, 지도 포맷(폴리라인/좌표 배열) 분리  
->   - 실시간: **폴링 → WebSocket/STOMP** 전환, 메시지 페이로드 최소화  
->   - 검증: FSM 더미 드라이버로 경로 이탈/경유지 스킵 시나리오 재현, **300m 임계치 로그 정책** 도입  
->   - 운영: 주 2회 정례/주간 재배분, 노션 이슈 가시화, 결정 로그로 의사결정 투명성 확보  
->   - 재사용: 경로/지도 모듈 컴포넌트화(다중 경유지, 완료/미완료 구간 표시)
+>   - 화주 기능 개발 및 운영 지원
+>     · 1차ㆍ2차 결제 모듈: 비용 절감 및 로직 일관성 확보를 위한 결제 처리 전략 설계(선결제, 차액 정산을 단일 결제 테이블에서 처리)
+>     · 이용기록 열람: API 호출 최소화와 비동기 병렬 처리로 성능 최적화(23초 → 0.6초)
+>     · 리뷰ㆍ문의사항 기능: 아이콘 클릭 기반 GUI로 UX 강화(별점 부여 기능, 문의 시 사진 첨부 기능)
+>   - 실시간: **폴링 → WebSocket/STOMP** 전환, 메시지 페이로드 최소화
+>  
+>   - 관리자 기능 개발 및 운영 지원
+>     · 문의사항 관리 모듈: 처리 상태, 카테고리, 신고 빈도, 월별 신고 건수 대시보드 구성
+>     · 배너 관리 모듈: 수정 시 실시간 미리보기 기능 제공
+> 
+>   - 공통ㆍUX 개선
+>     · 공통 컴포넌트 생성: 재사용 가능한 컴포넌트를 제작해 코드 중복 최소화 및 유지보수성 향상
+>     · 다크모드 구현: ThemeProvider, useTheme 기반의 일관된 다크/라이트 모드 UI 제공, 사용자 환경 맞춤 경험 강화
+>     
+>   - 플랫폼 운영ㆍ배포
+>     · DB 호스팅 운영(Aiven): MySQL 호스팅 환경 설정 및 권한 관리, 팀원 연결 이슈 해결로 안정적 데이터 접근 환경 제공
+>     · 프론트엔드 배포(Vercel): 배포 파이프라인 관리와 오류 대응으로 지속적 업데이트 및 운영 안정성 확보
+>     
 > - **Stack**: Spring Boot · React · MySQL · WebSocket · Kakao Map API  
 > - 🔗 [팀 레포지토리 링크][link-squirrel-team]
-> - 🔗 [개인 기여 레포지토리 링크]  (연결 예정)
 
-<br>
----
+<br/><br/>
 
-# 📜 Achievements
+## 📜 Achievements
 - 🏅 정보처리기사 (2025)  
 - 🌐 풀스택 웹 서비스 배포 경험 (2025)
 - 🏅 컴퓨터활용 1급 (2023)  
 
----
+<br/><br/>
 
-# 📌 Next Steps
+## 📌 Next Steps
 - 📘 SQLD 취득 준비
 - ☁️ AWS Certified Developer 도전  
 - 📈대용량 트래픽 처리 학습/실습
 
----
+<br/><br/>
 
-# 📊 GitHub Overview
+## 📊 GitHub Overview
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=kkkddkkk&show_icons=true&theme=cobalt" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kkkddkkk&layout=donut&theme=cobalt" height="170"/>
 </p>
 
----
-# 📫 Contact
-- ✉️ your_email@example.com  
+<br/><br/>
+## 📫 Contact
+- ✉️ kimeun1129@naver.com  
 - 💼 [LinkedIn]  (연결 예정)
 
 <br>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:c3fff3,50:ffd6fb,100:e893d8&text=Thank%20you&height=120&fontSize=50&fontColor=ffffff&fontAlignY=60&fontAlign=80&stroke=3586db&strokeWidth=1&animation=fadeIn&section=footer"/>
-</p>
 
 
 [link-squirrel-team]: https://github.com/kkkddkkk/squirrelLogistics/tree/dev
 [link-squirrel-contrib]: https://github.com/eunseolgo14/squirrel-logistics-contrib
 [link-gameA-play]: https://play.google.com/store/apps/details?id=com.BRAEVE.lovebastards.google&hl=ko
 [link-gameB-play]: https://play.google.com/store/apps/details?id=com.BRAEVE.workaholicknights.google&hl=ko
-[link-dungeon-git]: https://github.com/eunseolgo14/dungeon-shooter
 [link-dungeon-demo]: https://www.youtube.com/watch?v=yaR13-YVNWY
-[link-algo]: https://github.com/eunseolgo14/algorithms-practice
 [link-linkedin]: https://linkedin.com/in/eunseolgo14
-[link-notion]: https://notion.so/yourpage
 [link-game-class]:https://psychedelic-deposit-53c.notion.site/3c17a7156cb74b1691b54061b8d7d273
 [link-fullstack-notes]: https://psychedelic-deposit-53c.notion.site/JAVA-aa71c33d2d7b415086728c98264e35ef?pvs=74
