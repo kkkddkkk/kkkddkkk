@@ -112,6 +112,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=kkkddkkk&show_icons=true&theme=cobalt" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kkkddkkk&layout=donut&theme=cobalt" height="170"/>
 </p>
+<!-- <img src="https://raw.githubusercontent.com/kkkddkkk/programmers-badge/master/static/result.svg"/> -->
 
 <br/><br/>
 ## 📫 Contact
