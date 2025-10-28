@@ -114,6 +114,20 @@
 </p>
 <!-- <img src="https://raw.githubusercontent.com/kkkddkkk/programmers-badge/master/static/result.svg"/> -->
 
+## 🌱 Contribution & Activity
+
+<p align="center">
+  <!-- GitHub 잔디 그래프 (contribution streak) -->
+  <img src="https://streak-stats.demolab.com?user=kkkddkkk&theme=cobalt&hide_border=true" height="170"/>
+</p>
+
+<p align="center">
+  <!-- 커밋 히트맵 (일별 커밋 활동 시각화) -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kkkddkkk&theme=react-dark&hide_border=true&bg_color=0D1117" width="95%"/>
+</p>
+
+---
+
 <br/><br/>
 ## 📫 Contact
 - ✉️ kimeun1129@naver.com  
